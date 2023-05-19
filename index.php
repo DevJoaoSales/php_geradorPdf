@@ -28,7 +28,7 @@
 
       <!--Div that will hold the pie chart-->
       <div id="chart_div"></div>
-
+      <img src="https://imran.noinsta.com/teste/image/download.png">
       <img src="https://imran.noinsta.com/teste/image/street-road.jpg" >
 
     </div>
