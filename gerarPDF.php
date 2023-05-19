@@ -6,8 +6,7 @@ $html .= '<p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic debitis minus deserunt accusamus incidunt ipsum voluptatem. Perferendis deserunt ducimus tenetur aliquam, voluptatem sapiente ad ullam, vero nobis reprehenderit assumenda nostrum.<br><br>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic debitis minus deserunt accusamus incidunt ipsum voluptatem. Perferendis deserunt ducimus tenetur aliquam, voluptatem sapiente ad ullam, vero nobis reprehenderit assumenda nostrum.<br>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic debitis minus deserunt accusamus incidunt ipsum voluptatem. Perferendis deserunt ducimus tenetur aliquam, voluptatem sapiente ad ullam, vero nobis reprehenderit assumenda nostrum.
-        </p>
-';
+        </p>';
 
 // IMPORTANTE: Colocar link com URL completa.
 $html .= ' <img src="https://imran.noinsta.com/teste/image/street-road.jpg" style="width:700px;">';
