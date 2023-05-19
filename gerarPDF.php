@@ -1,3 +1,6 @@
+<?php
+
+$html = '
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -25,20 +28,7 @@
 
         <img src="image/street-road.jpg" >
 
-        <?php /*
-        <!--<img src="image/sunday.jpg">-->
-        
-
-        <!--Div that will hold the pie chart-->
-        <!--<div id="chart_div"></div>-->
-        */ ?>
-
     </div>
-
-    
-    <?php  phpinfo(); ?>
-
-
 
 <footer>
 
@@ -74,7 +64,6 @@
     background:#ccc;
     padding:5px 20px;
     color:#000;
-    /*text-decoration: none!important;*/
     float:right;
   }
 
@@ -84,3 +73,35 @@
 
 </body>
 </html>
+
+';
+
+
+
+
+// Referenciar namespace.
+use Dompdf\Dompdf;
+
+/* Carrega a classe DOMPdf */
+require_once("vendor/autoload.php");
+
+/* Cria a instância */
+$dompdf = new Dompdf();
+
+/* Carrega seu HTML */
+$dompdf->loadHtml($html);
+
+$dompdf->setPaper('A4','portrait');
+
+/* Renderiza */
+$dompdf->render();
+
+//$dompdf->stream();
+
+/* Exibe */
+$dompdf->stream(
+    "Relatorio.pdf", /* Nome do arquivo de saída */
+);
+?>
+
+

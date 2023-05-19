@@ -1,0 +1,17 @@
+{
+    "name": "casual/php_gerador-pdf",
+    "autoload": {
+        "psr-4": {
+            "Casual\\PhpGeradorPdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DevJoaoSales",
+            "email": "pmagal539@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    }
+}
