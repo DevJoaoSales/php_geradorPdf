@@ -10,7 +10,7 @@ $html .= '<p>
 ';
 
 // IMPORTANTE: Colocar link com URL completa.
-$html .= ' <img src="https://imran.noinsta.com/teste/image/sunday.jpg" >';
+$html .= ' <img src="https://imran.noinsta.com/teste/image/street-road.jpg" style="width:700px;">';
 
 /* Carrega a classe DOMPdf */
 require_once("vendor/autoload.php");

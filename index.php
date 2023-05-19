@@ -25,21 +25,8 @@
 
         <img src="image/street-road.jpg" >
 
-        <?php /*
-        <!--<img src="image/sunday.jpg">-->
-        
-
-        <!--Div that will hold the pie chart-->
-        <!--<div id="chart_div"></div>-->
-        */ ?>
 
     </div>
-
-    
-    <?php  phpinfo(); ?>
-
-
-
 <footer>
 
 <style>
