@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador PDF</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://noinsta.com/estilo.css">
 
 </head>
 <body>
@@ -27,8 +27,11 @@
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic debitis minus deserunt accusamus incidunt ipsum voluptatem. Perferendis deserunt ducimus tenetur aliquam, voluptatem sapiente ad ullam, vero nobis reprehenderit assumenda nostrum.
       </p>
 
+
       <!--Div that will hold the pie chart-->
       <div id="chart_div"></div>
+
+
       <!--<img src="https://imran.noinsta.com/teste/image/download.png">-->
       <img src="https://imran.noinsta.com/teste/image/street-road.jpg" >
 
