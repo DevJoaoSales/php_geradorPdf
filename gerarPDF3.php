@@ -15,7 +15,8 @@ use Dompdf\Dompdf;
 $dompdf = new Dompdf(["enable_remote" => true]); // Suporta imagens.
 
 // Lendo o arquivo HTML correspondente.
-$html = file_get_contents('index.php');
+//$html = file_get_contents('index.php');
+$html = implode("",file('index.php'));
 
 // Observação: colocar URL completa das imagens
 // exemplo: <img src="https://imran.noinsta.com/teste/image/street-road.jpg" >
