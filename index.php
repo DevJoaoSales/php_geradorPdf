@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador PDF</title>
+    <link rel="stysheet" href="./estilo.css">
 
 </head>
 <body>
@@ -35,58 +36,6 @@
 <footer>
 
 <style>
-
-  .container-center {
-      margin:100px auto;
-      width:600px;
-  }
-
-  .container-center h1 {
-    text-align:center;
-    display:block;
-  }
-
-  .container-center h2 {
-    font-family: cursive;
-    color:blue;
-    font-weight:bolder;
-  }
-
-  .container-center p {
-    font-size:20px;
-    text-align:justify;
-    margin:50px 0px;
-  }
-
-  .container-center p span.red {
-    color:red;
-  }
-
-  .container-center p span.yellow {
-    color:#828220;
-    text-decoration:underline;
-  }
-
-  .container-center img {
-    display:block;
-    margin:20px auto;
-    width:500px;
-    float:inherit;
-  }
-
-  .container-btn-mpdf {
-    margin-bottom:20px;
-    display:inline-block;
-    width:100%;
-  }
-
-  .container-btn-mpdf a {
-    background:#ccc;
-    margin-left:10px;
-    padding:5px 20px;
-    color:#000;
-    
-  }
 
 </style>
 
